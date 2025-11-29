@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeAlpha E-commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h2>CodeAlpha Store</h2>
+    <div>
+      <span id="user">Guest</span> |
+      <a href="#" onclick="logout()">Logout</a> |
+      <span>Cart: <span id="cart-count">0</span></span>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Welcome! Please <a href="#" onclick="showLogin()">Login</a> or <a href="#" onclick="showRegister()">Register</a></h1>
+    <div id="auth"></div>
+
+    <div id="products"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
